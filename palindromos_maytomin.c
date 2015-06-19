@@ -15,8 +15,6 @@ main()
 	int i=0,k;
 	char string[]="anitA lava la tina";
 	int size=sizeof(string)-2;
-	//printf("Introduce una cadena:");
-	//gets(string);
 	MayToMin(string); 
 	printf("%d\n",size);
 		for(k=0;k<size;k++,i++,size--)
@@ -33,4 +31,4 @@ main()
 		}
 	printf("es palindromo\n");	
 	return 0;
-}
+}  
